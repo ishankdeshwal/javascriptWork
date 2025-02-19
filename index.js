@@ -46,17 +46,17 @@
 // const percentage=(total/500)*100
 // const avg=total/5
 
-const n=prompt("Enter the number of subjects")
-let a=[5]
-for(let i=0;i<n;i++){
-     a[i]=prompt(`Enter the marks of ${i+1} subject`)
-}
-let total=0
-for(let i=0;i<n;i++){
-    total+=parseInt(a[i])
-}
-const avg=total/n
-console.log(avg)
+// const n=prompt("Enter the number of subjects")
+// let a=[5]
+// for(let i=0;i<n;i++){
+//      a[i]=prompt(`Enter the marks of ${i+1} subject`)
+// }
+// let total=0
+// for(let i=0;i<n;i++){
+//     total+=parseInt(a[i])
+// }
+// const avg=total/n
+// console.log(avg)
 
 
 
