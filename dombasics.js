@@ -36,7 +36,11 @@ rootElement.appendChild(newElement);
 console.log(Object.entries(mappings));
 Object.entries(mappings).forEach((key)=>{
     const newChild=document.createElement("div");
-    newChild.style.border="1px solid line"
+    newChild.style.border="5px solid "
+
+    newChild.style.borderRadius="5px"
+    newChild.style.margin="10px"
+    newChild.style.padding="10px"
     newChild.innerHTML=`
     <h1 style="color:orange">${key[0]}</h1>
     <p>${key[1]}</p>
